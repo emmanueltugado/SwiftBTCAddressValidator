@@ -14,7 +14,18 @@
 		B1EEC56D1F629F9D0071D0D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1EEC56C1F629F9D0071D0D8 /* Assets.xcassets */; };
 		B1EEC5701F629F9D0071D0D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1EEC56E1F629F9D0071D0D8 /* LaunchScreen.storyboard */; };
 		B1EEC5781F629FC00071D0D8 /* BTCAddressValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EEC5771F629FC00071D0D8 /* BTCAddressValidator.swift */; };
+		B1EEC5A11F62C2EE0071D0D8 /* SwiftBTCAddressValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EEC5A01F62C2EE0071D0D8 /* SwiftBTCAddressValidatorTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1EEC5A31F62C2EE0071D0D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1EEC55A1F629F9D0071D0D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1EEC5611F629F9D0071D0D8;
+			remoteInfo = SwiftBTCAddressValidator;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2D30D332B12AB2C255D990E9 /* Pods-SwiftBTCAddressValidator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBTCAddressValidator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBTCAddressValidator/Pods-SwiftBTCAddressValidator.debug.xcconfig"; sourceTree = "<group>"; };
@@ -26,6 +37,9 @@
 		B1EEC56F1F629F9D0071D0D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1EEC5711F629F9D0071D0D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1EEC5771F629FC00071D0D8 /* BTCAddressValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTCAddressValidator.swift; sourceTree = "<group>"; };
+		B1EEC59E1F62C2ED0071D0D8 /* SwiftBTCAddressValidatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftBTCAddressValidatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1EEC5A01F62C2EE0071D0D8 /* SwiftBTCAddressValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBTCAddressValidatorTests.swift; sourceTree = "<group>"; };
+		B1EEC5A21F62C2EE0071D0D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5652DEAC7C173559735188F /* Pods_SwiftBTCAddressValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftBTCAddressValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9CB0453C85FD8B1AA06E43B /* Pods-SwiftBTCAddressValidator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBTCAddressValidator.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBTCAddressValidator/Pods-SwiftBTCAddressValidator.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -36,6 +50,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				147FB514701FD8E98E305F43 /* Pods_SwiftBTCAddressValidator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1EEC59B1F62C2ED0071D0D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				B1EEC5641F629F9D0071D0D8 /* SwiftBTCAddressValidator */,
+				B1EEC59F1F62C2EE0071D0D8 /* SwiftBTCAddressValidatorTests */,
 				B1EEC5631F629F9D0071D0D8 /* Products */,
 				73F996F75F9AE8BA9B2C287B /* Pods */,
 				E8A0E3A70EEC2235202A5C64 /* Frameworks */,
@@ -65,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				B1EEC5621F629F9D0071D0D8 /* SwiftBTCAddressValidator.app */,
+				B1EEC59E1F62C2ED0071D0D8 /* SwiftBTCAddressValidatorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,6 +104,15 @@
 				B1EEC5771F629FC00071D0D8 /* BTCAddressValidator.swift */,
 			);
 			path = SwiftBTCAddressValidator;
+			sourceTree = "<group>";
+		};
+		B1EEC59F1F62C2EE0071D0D8 /* SwiftBTCAddressValidatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1EEC5A01F62C2EE0071D0D8 /* SwiftBTCAddressValidatorTests.swift */,
+				B1EEC5A21F62C2EE0071D0D8 /* Info.plist */,
+			);
+			path = SwiftBTCAddressValidatorTests;
 			sourceTree = "<group>";
 		};
 		E8A0E3A70EEC2235202A5C64 /* Frameworks */ = {
@@ -114,6 +146,24 @@
 			productReference = B1EEC5621F629F9D0071D0D8 /* SwiftBTCAddressValidator.app */;
 			productType = "com.apple.product-type.application";
 		};
+		B1EEC59D1F62C2ED0071D0D8 /* SwiftBTCAddressValidatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1EEC5A51F62C2EE0071D0D8 /* Build configuration list for PBXNativeTarget "SwiftBTCAddressValidatorTests" */;
+			buildPhases = (
+				B1EEC59A1F62C2ED0071D0D8 /* Sources */,
+				B1EEC59B1F62C2ED0071D0D8 /* Frameworks */,
+				B1EEC59C1F62C2ED0071D0D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1EEC5A41F62C2EE0071D0D8 /* PBXTargetDependency */,
+			);
+			name = SwiftBTCAddressValidatorTests;
+			productName = SwiftBTCAddressValidatorTests;
+			productReference = B1EEC59E1F62C2ED0071D0D8 /* SwiftBTCAddressValidatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -128,6 +178,12 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 3LWDWG4JDK;
 						ProvisioningStyle = Automatic;
+					};
+					B1EEC59D1F62C2ED0071D0D8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3LWDWG4JDK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B1EEC5611F629F9D0071D0D8;
 					};
 				};
 			};
@@ -145,6 +201,7 @@
 			projectRoot = "";
 			targets = (
 				B1EEC5611F629F9D0071D0D8 /* SwiftBTCAddressValidator */,
+				B1EEC59D1F62C2ED0071D0D8 /* SwiftBTCAddressValidatorTests */,
 			);
 		};
 /* End PBXProject section */
@@ -157,6 +214,13 @@
 				B1EEC5701F629F9D0071D0D8 /* LaunchScreen.storyboard in Resources */,
 				B1EEC56D1F629F9D0071D0D8 /* Assets.xcassets in Resources */,
 				B1EEC56B1F629F9D0071D0D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1EEC59C1F62C2ED0071D0D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +285,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B1EEC59A1F62C2ED0071D0D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1EEC5A11F62C2EE0071D0D8 /* SwiftBTCAddressValidatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1EEC5A41F62C2EE0071D0D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1EEC5611F629F9D0071D0D8 /* SwiftBTCAddressValidator */;
+			targetProxy = B1EEC5A31F62C2EE0071D0D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B1EEC5691F629F9D0071D0D8 /* Main.storyboard */ = {
@@ -366,6 +446,34 @@
 			};
 			name = Release;
 		};
+		B1EEC5A61F62C2EE0071D0D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3LWDWG4JDK;
+				INFOPLIST_FILE = SwiftBTCAddressValidatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emmanueltugado.SwiftBTCAddressValidatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftBTCAddressValidator.app/SwiftBTCAddressValidator";
+			};
+			name = Debug;
+		};
+		B1EEC5A71F62C2EE0071D0D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3LWDWG4JDK;
+				INFOPLIST_FILE = SwiftBTCAddressValidatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emmanueltugado.SwiftBTCAddressValidatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftBTCAddressValidator.app/SwiftBTCAddressValidator";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -383,6 +491,15 @@
 			buildConfigurations = (
 				B1EEC5751F629F9D0071D0D8 /* Debug */,
 				B1EEC5761F629F9D0071D0D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1EEC5A51F62C2EE0071D0D8 /* Build configuration list for PBXNativeTarget "SwiftBTCAddressValidatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1EEC5A61F62C2EE0071D0D8 /* Debug */,
+				B1EEC5A71F62C2EE0071D0D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

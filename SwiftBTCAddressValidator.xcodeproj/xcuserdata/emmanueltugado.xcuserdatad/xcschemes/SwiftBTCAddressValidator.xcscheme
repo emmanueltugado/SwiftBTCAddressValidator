@@ -28,6 +28,16 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B1EEC59D1F62C2ED0071D0D8"
+               BuildableName = "SwiftBTCAddressValidatorTests.xctest"
+               BlueprintName = "SwiftBTCAddressValidatorTests"
+               ReferencedContainer = "container:SwiftBTCAddressValidator.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
