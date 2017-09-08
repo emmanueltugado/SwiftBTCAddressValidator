@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		147FB514701FD8E98E305F43 /* Pods_SwiftBTCAddressValidator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5652DEAC7C173559735188F /* Pods_SwiftBTCAddressValidator.framework */; };
+		B1EEC5661F629F9D0071D0D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EEC5651F629F9D0071D0D8 /* AppDelegate.swift */; };
+		B1EEC5681F629F9D0071D0D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EEC5671F629F9D0071D0D8 /* ViewController.swift */; };
+		B1EEC56B1F629F9D0071D0D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1EEC5691F629F9D0071D0D8 /* Main.storyboard */; };
+		B1EEC56D1F629F9D0071D0D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1EEC56C1F629F9D0071D0D8 /* Assets.xcassets */; };
+		B1EEC5701F629F9D0071D0D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1EEC56E1F629F9D0071D0D8 /* LaunchScreen.storyboard */; };
+		B1EEC5781F629FC00071D0D8 /* BTCAddressValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EEC5771F629FC00071D0D8 /* BTCAddressValidator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D30D332B12AB2C255D990E9 /* Pods-SwiftBTCAddressValidator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBTCAddressValidator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBTCAddressValidator/Pods-SwiftBTCAddressValidator.debug.xcconfig"; sourceTree = "<group>"; };
+		B1EEC5621F629F9D0071D0D8 /* SwiftBTCAddressValidator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBTCAddressValidator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1EEC5651F629F9D0071D0D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B1EEC5671F629F9D0071D0D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B1EEC56A1F629F9D0071D0D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1EEC56C1F629F9D0071D0D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1EEC56F1F629F9D0071D0D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1EEC5711F629F9D0071D0D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1EEC5771F629FC00071D0D8 /* BTCAddressValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTCAddressValidator.swift; sourceTree = "<group>"; };
+		D5652DEAC7C173559735188F /* Pods_SwiftBTCAddressValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftBTCAddressValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9CB0453C85FD8B1AA06E43B /* Pods-SwiftBTCAddressValidator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBTCAddressValidator.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBTCAddressValidator/Pods-SwiftBTCAddressValidator.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1EEC55F1F629F9D0071D0D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147FB514701FD8E98E305F43 /* Pods_SwiftBTCAddressValidator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73F996F75F9AE8BA9B2C287B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D30D332B12AB2C255D990E9 /* Pods-SwiftBTCAddressValidator.debug.xcconfig */,
+				E9CB0453C85FD8B1AA06E43B /* Pods-SwiftBTCAddressValidator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B1EEC5591F629F9D0071D0D8 = {
+			isa = PBXGroup;
+			children = (
+				B1EEC5641F629F9D0071D0D8 /* SwiftBTCAddressValidator */,
+				B1EEC5631F629F9D0071D0D8 /* Products */,
+				73F996F75F9AE8BA9B2C287B /* Pods */,
+				E8A0E3A70EEC2235202A5C64 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B1EEC5631F629F9D0071D0D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1EEC5621F629F9D0071D0D8 /* SwiftBTCAddressValidator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1EEC5641F629F9D0071D0D8 /* SwiftBTCAddressValidator */ = {
+			isa = PBXGroup;
+			children = (
+				B1EEC5651F629F9D0071D0D8 /* AppDelegate.swift */,
+				B1EEC5671F629F9D0071D0D8 /* ViewController.swift */,
+				B1EEC5691F629F9D0071D0D8 /* Main.storyboard */,
+				B1EEC56C1F629F9D0071D0D8 /* Assets.xcassets */,
+				B1EEC56E1F629F9D0071D0D8 /* LaunchScreen.storyboard */,
+				B1EEC5711F629F9D0071D0D8 /* Info.plist */,
+				B1EEC5771F629FC00071D0D8 /* BTCAddressValidator.swift */,
+			);
+			path = SwiftBTCAddressValidator;
+			sourceTree = "<group>";
+		};
+		E8A0E3A70EEC2235202A5C64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5652DEAC7C173559735188F /* Pods_SwiftBTCAddressValidator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1EEC5611F629F9D0071D0D8 /* SwiftBTCAddressValidator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1EEC5741F629F9D0071D0D8 /* Build configuration list for PBXNativeTarget "SwiftBTCAddressValidator" */;
+			buildPhases = (
+				B5E85BB89B2D4C75758BD1E1 /* [CP] Check Pods Manifest.lock */,
+				B1EEC55E1F629F9D0071D0D8 /* Sources */,
+				B1EEC55F1F629F9D0071D0D8 /* Frameworks */,
+				B1EEC5601F629F9D0071D0D8 /* Resources */,
+				680541393EFAEE47228B8916 /* [CP] Embed Pods Frameworks */,
+				9BFE81E84DFBDA704A53B953 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftBTCAddressValidator;
+			productName = SwiftBTCAddressValidator;
+			productReference = B1EEC5621F629F9D0071D0D8 /* SwiftBTCAddressValidator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1EEC55A1F629F9D0071D0D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Emmanuel Tugado";
+				TargetAttributes = {
+					B1EEC5611F629F9D0071D0D8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3LWDWG4JDK;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B1EEC55D1F629F9D0071D0D8 /* Build configuration list for PBXProject "SwiftBTCAddressValidator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1EEC5591F629F9D0071D0D8;
+			productRefGroup = B1EEC5631F629F9D0071D0D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1EEC5611F629F9D0071D0D8 /* SwiftBTCAddressValidator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1EEC5601F629F9D0071D0D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1EEC5701F629F9D0071D0D8 /* LaunchScreen.storyboard in Resources */,
+				B1EEC56D1F629F9D0071D0D8 /* Assets.xcassets in Resources */,
+				B1EEC56B1F629F9D0071D0D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		680541393EFAEE47228B8916 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftBTCAddressValidator/Pods-SwiftBTCAddressValidator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BFE81E84DFBDA704A53B953 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftBTCAddressValidator/Pods-SwiftBTCAddressValidator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5E85BB89B2D4C75758BD1E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1EEC55E1F629F9D0071D0D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1EEC5681F629F9D0071D0D8 /* ViewController.swift in Sources */,
+				B1EEC5661F629F9D0071D0D8 /* AppDelegate.swift in Sources */,
+				B1EEC5781F629FC00071D0D8 /* BTCAddressValidator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B1EEC5691F629F9D0071D0D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1EEC56A1F629F9D0071D0D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1EEC56E1F629F9D0071D0D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1EEC56F1F629F9D0071D0D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1EEC5721F629F9D0071D0D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1EEC5731F629F9D0071D0D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1EEC5751F629F9D0071D0D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D30D332B12AB2C255D990E9 /* Pods-SwiftBTCAddressValidator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3LWDWG4JDK;
+				INFOPLIST_FILE = SwiftBTCAddressValidator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emmanueltugado.SwiftBTCAddressValidator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B1EEC5761F629F9D0071D0D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9CB0453C85FD8B1AA06E43B /* Pods-SwiftBTCAddressValidator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3LWDWG4JDK;
+				INFOPLIST_FILE = SwiftBTCAddressValidator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emmanueltugado.SwiftBTCAddressValidator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1EEC55D1F629F9D0071D0D8 /* Build configuration list for PBXProject "SwiftBTCAddressValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1EEC5721F629F9D0071D0D8 /* Debug */,
+				B1EEC5731F629F9D0071D0D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1EEC5741F629F9D0071D0D8 /* Build configuration list for PBXNativeTarget "SwiftBTCAddressValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1EEC5751F629F9D0071D0D8 /* Debug */,
+				B1EEC5761F629F9D0071D0D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1EEC55A1F629F9D0071D0D8 /* Project object */;
+}

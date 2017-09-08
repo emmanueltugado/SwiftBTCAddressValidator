@@ -1,0 +1,6 @@
+framework module Pods_SwiftBTCAddressValidator {
+  umbrella header "Pods-SwiftBTCAddressValidator-umbrella.h"
+
+  export *
+  module * { export * }
+}
