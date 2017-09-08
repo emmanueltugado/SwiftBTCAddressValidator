@@ -3,6 +3,8 @@ Validate Bitcoin addresses in one line!
 
 
 ```
+import SwiftBTCAddressValidator
+
 let validator = BTCAddressValidator()
 
 validator.isValid("1Q1pE5vPGEEMqRcVRMbtBK842Y6Pzo6nK9") // true
