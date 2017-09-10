@@ -9,7 +9,7 @@
 import Foundation
 import CryptoSwift
 
-class BTCAddressValidator {
+public final class BTCAddressValidator {
     private func getBase58DecodeAsBytes(address: String, length: Int) -> [UTF8.CodeUnit]? {
         let b58Chars = "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz"
         
