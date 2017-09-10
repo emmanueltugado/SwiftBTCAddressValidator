@@ -502,6 +502,7 @@
 				B1EEC5A71F62C2EE0071D0D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
