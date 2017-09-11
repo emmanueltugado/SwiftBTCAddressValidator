@@ -1,6 +1,10 @@
 # SwiftBTCAddressValidator
 Validate Bitcoin addresses in one line!
 
+## Installation - Use CocoaPods
+**pod 'SwiftBTCAddressValidator'**
+
+### Usage
 
 ```
 import SwiftBTCAddressValidator
