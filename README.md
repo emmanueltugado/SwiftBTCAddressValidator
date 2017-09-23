@@ -1,5 +1,5 @@
 # SwiftBTCAddressValidator
-Validate Bitcoin addresses in one line!
+Validate Bitcoin addresses in one line! Written in Swift 3.
 
 ## Install via CocoaPods
 ```
